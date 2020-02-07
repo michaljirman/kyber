@@ -264,3 +264,16 @@ func (p *curvePoint) Clone() kyber.Point {
 func (c *curve) Order() *big.Int {
 	return c.p.N
 }
+
+func (c *curve) ComputeY(x *big.Int) (*big.Int, *big.Int) {
+	// Compute the corresponding Y coordinate, if any
+	y2 := new(big.Int).Mul(x, x)
+	y2.Mul(y2, x)
+	threeX := new(big.Int).Lsh(x, 1)
+	threeX.Add(threeX, x)
+	y2.Sub(y2, threeX)
+	y2.Add(y2, c.p.B)
+	y2.Mod(y2, c.p.P)
+	y := c.sqrt(y2)
+	return x, y
+}

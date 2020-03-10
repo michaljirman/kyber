@@ -3,7 +3,7 @@ module github.com/michaljirman/kyber
 go 1.13
 
 require (
-	github.com/michaljirman/kyber/v3 v3.1.100
+	github.com/michaljirman/kyber/v3 v3.1.100 // indirect
 	github.com/stretchr/testify v1.5.1
 	go.dedis.ch/fixbuf v1.0.3
 	go.dedis.ch/protobuf v1.0.11

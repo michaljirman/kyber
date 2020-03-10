@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3/util/random"
+	"github.com/michaljirman/kyber/v3/group/edwards25519"
+	"github.com/michaljirman/kyber/v3/util/random"
 )
 
 var testSuite = edwards25519.NewBlakeSHA256Ed25519()

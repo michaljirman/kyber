@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/group/edwards25519"
-	dkg "github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/share/dkg/rabin"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign/eddsa"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign/schnorr"
+	"github.com/michaljirman/kyber/v3/group/edwards25519"
+	dkg "github.com/michaljirman/kyber/v3/share/dkg/rabin"
+	"github.com/michaljirman/kyber/v3/sign/eddsa"
+	"github.com/michaljirman/kyber/v3/sign/schnorr"
 )
 
 var suite = edwards25519.NewBlakeSHA256Ed25519()

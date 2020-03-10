@@ -8,8 +8,8 @@ import (
 	"math/big"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/group/internal/marshalling"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/group/mod"
+	"github.com/michaljirman/kyber/v3/group/internal/marshalling"
+	"github.com/michaljirman/kyber/v3/group/mod"
 )
 
 type basicPoint struct {

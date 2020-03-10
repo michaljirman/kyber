@@ -25,8 +25,8 @@ import (
 
 	"go.dedis.ch/fixbuf"
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/random"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/xof/blake2xb"
+	"github.com/michaljirman/kyber/v3/util/random"
+	"github.com/michaljirman/kyber/v3/xof/blake2xb"
 )
 
 // Suite implements the pairing.Suite interface for the BN256 bilinear pairing.

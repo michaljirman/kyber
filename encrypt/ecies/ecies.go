@@ -10,7 +10,7 @@ import (
 	"hash"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/random"
+	"github.com/michaljirman/kyber/v3/util/random"
 	"golang.org/x/crypto/hkdf"
 )
 

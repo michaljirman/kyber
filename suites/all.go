@@ -2,9 +2,9 @@ package suites
 
 import (
 	"github.com/michaljirman/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/group/nist"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/pairing"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/pairing/bn256"
+	"github.com/michaljirman/kyber/v3/group/nist"
+	"github.com/michaljirman/kyber/v3/pairing"
+	"github.com/michaljirman/kyber/v3/pairing/bn256"
 )
 
 func init() {

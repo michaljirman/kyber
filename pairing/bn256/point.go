@@ -9,7 +9,7 @@ import (
 	"math/big"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/group/mod"
+	"github.com/michaljirman/kyber/v3/group/mod"
 )
 
 var marshalPointID1 = [8]byte{'b', 'n', '2', '5', '6', '.', 'g', '1'}

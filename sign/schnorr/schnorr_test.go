@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/michaljirman/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign/eddsa"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/key"
+	"github.com/michaljirman/kyber/v3/sign/eddsa"
+	"github.com/michaljirman/kyber/v3/util/key"
 )
 
 func TestSchnorrSignature(t *testing.T) {

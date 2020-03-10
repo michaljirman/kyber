@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/share"
-	vss "github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/share/vss/pedersen"
+	"github.com/michaljirman/kyber/v3/group/edwards25519"
+	"github.com/michaljirman/kyber/v3/share"
+	vss "github.com/michaljirman/kyber/v3/share/vss/pedersen"
 )
 
 var suite = edwards25519.NewBlakeSHA256Ed25519()

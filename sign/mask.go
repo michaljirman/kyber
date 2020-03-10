@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/pairing"
+	"github.com/michaljirman/kyber/v3/pairing"
 )
 
 // Mask is a bitmask of the participation to a collective signature.

@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/key"
+	"github.com/michaljirman/kyber/v3/util/key"
 )
 
 func header(suite Suite, X kyber.Point, x kyber.Scalar,

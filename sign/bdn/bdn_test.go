@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/pairing"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/pairing/bn256"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign/bls"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/random"
+	"github.com/michaljirman/kyber/v3/pairing"
+	"github.com/michaljirman/kyber/v3/pairing/bn256"
+	"github.com/michaljirman/kyber/v3/sign"
+	"github.com/michaljirman/kyber/v3/sign/bls"
+	"github.com/michaljirman/kyber/v3/util/random"
 )
 
 var suite = pairing.NewSuiteBn256()

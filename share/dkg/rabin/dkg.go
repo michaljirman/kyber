@@ -42,11 +42,11 @@ import (
 	"fmt"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign/schnorr"
+	"github.com/michaljirman/kyber/v3/sign/schnorr"
 	"go.dedis.ch/protobuf"
 
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/share"
-	vss "github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/share/vss/rabin"
+	"github.com/michaljirman/kyber/v3/share"
+	vss "github.com/michaljirman/kyber/v3/share/vss/rabin"
 )
 
 // Suite wraps the functionalities needed by the dkg package

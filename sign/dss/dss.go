@@ -20,9 +20,9 @@ import (
 	"errors"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/share"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign/eddsa"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign/schnorr"
+	"github.com/michaljirman/kyber/v3/share"
+	"github.com/michaljirman/kyber/v3/sign/eddsa"
+	"github.com/michaljirman/kyber/v3/sign/schnorr"
 )
 
 // Suite represents the functionalities needed by the dss package

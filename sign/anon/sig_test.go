@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/random"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/xof/blake2xb"
+	"github.com/michaljirman/kyber/v3/group/edwards25519"
+	"github.com/michaljirman/kyber/v3/util/random"
+	"github.com/michaljirman/kyber/v3/xof/blake2xb"
 )
 
 // This example demonstrates signing and signature verification

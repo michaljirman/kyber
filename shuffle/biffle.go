@@ -4,8 +4,8 @@ import (
 	"crypto/cipher"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3/proof"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3/util/random"
+	"github.com/michaljirman/kyber/v3/proof"
+	"github.com/michaljirman/kyber/v3/util/random"
 )
 
 func bifflePred() proof.Predicate {

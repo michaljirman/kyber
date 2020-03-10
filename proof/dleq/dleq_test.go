@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/random"
+	"github.com/michaljirman/kyber/v3/group/edwards25519"
+	"github.com/michaljirman/kyber/v3/util/random"
 )
 
 var rng = random.New()

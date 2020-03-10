@@ -15,10 +15,10 @@ import (
 	"math/big"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/group/mod"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/pairing"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/sign/bls"
+	"github.com/michaljirman/kyber/v3/group/mod"
+	"github.com/michaljirman/kyber/v3/pairing"
+	"github.com/michaljirman/kyber/v3/sign"
+	"github.com/michaljirman/kyber/v3/sign/bls"
 	"golang.org/x/crypto/blake2s"
 )
 

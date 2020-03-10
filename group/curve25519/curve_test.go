@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/michaljirman/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/test"
+	"github.com/michaljirman/kyber/v3/util/test"
 )
 
 var testSuite = NewBlakeSHA256Curve25519(false)

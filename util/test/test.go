@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/key"
-	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/util/random"
+	"github.com/michaljirman/kyber/v3/util/key"
+	"github.com/michaljirman/kyber/v3/util/random"
 )
 
 // Suite represents the functionalities that this package can test

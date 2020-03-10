@@ -5,6 +5,7 @@ import (
 	"crypto/elliptic"
 	"errors"
 	"io"
+	"log"
 	"math/big"
 
 	"go.dedis.ch/kyber/v3"
@@ -275,5 +276,13 @@ func (c *curve) ComputeY(x *big.Int) (*big.Int, *big.Int) {
 	y2.Add(y2, c.p.B)
 	y2.Mod(y2, c.p.P)
 	y := c.sqrt(y2)
+
+	// Check that it's a valid point
+	y2t := new(big.Int).Mul(y, y)
+	y2t.Mod(y2t, c.p.P)
+	if y2t.Cmp(y2) != 0 {
+		log.Fatal("on valid point")
+	}
+
 	return x, y
 }

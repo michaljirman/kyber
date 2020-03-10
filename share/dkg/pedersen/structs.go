@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"go.dedis.ch/kyber/v3"
-	"go.dedis.ch/kyber/v3/share"
-	vss "go.dedis.ch/kyber/v3/share/vss/pedersen"
+	"github.com/michaljirman/kyber/v3"
+	"github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/share"
+	vss "github.com/michaljirman/kyber/v3man/kyber/v3man/kyber/v3man/kyber/v3/share/vss/pedersen"
 )
 
 // DistKeyShare holds the share of a distributed key for a participant.

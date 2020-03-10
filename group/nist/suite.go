@@ -49,7 +49,7 @@ func (s *Suite128) New(t reflect.Type) interface{} {
 }
 
 // NewBlakeSHA256P256 returns a cipher suite based on package
-// github.com/michaljirman/kyber/v3/xof/blake2xb, SHA-256, and the NIST P-256
+// github.com/michaljirman/kyber/xof/blake2xb, SHA-256, and the NIST P-256
 // elliptic curve. It returns random streams from Go's crypto/rand.
 //
 // The scalars created by this group implement kyber.Scalar's SetBytes

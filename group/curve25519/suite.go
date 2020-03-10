@@ -49,7 +49,7 @@ func (s *SuiteCurve25519) RandomStream() cipher.Stream {
 }
 
 // NewBlakeSHA256Curve25519 returns a cipher suite based on package
-// github.com/michaljirman/kyber/v3/xof/blake2xb, SHA-256, and Curve25519.
+// github.com/michaljirman/kyber/xof/blake2xb, SHA-256, and Curve25519.
 //
 // If fullGroup is false, then the group is the prime-order subgroup.
 //

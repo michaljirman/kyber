@@ -286,3 +286,7 @@ func (c *curve) ComputeY(x *big.Int) (*big.Int, *big.Int) {
 
 	return x, y
 }
+
+func (c *curve) ScalarMult(x1, y1 *big.Int, k []byte) (x, y *big.Int) {
+	return c.p.ScalarMult(x1, y1, k)
+}

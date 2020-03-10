@@ -8,7 +8,7 @@ package dleq
 import (
 	"errors"
 
-	"github.com/michaljirman/kyber/v3"
+	"github.com/michaljirman/kyber"
 )
 
 // Suite wraps the functionalities needed by the dleq package.

@@ -1,6 +1,6 @@
 package cosi
 
-import "github.com/michaljirman/kyber/v3"
+import "github.com/michaljirman/kyber"
 
 // Suite specifies the cryptographic building blocks required for the cosi package.
 type Suite interface {

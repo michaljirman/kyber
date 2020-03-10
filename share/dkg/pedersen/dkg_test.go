@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/group/edwards25519"
+	"github.com/michaljirman/kyber/share"
+	vss "github.com/michaljirman/kyber/share/vss/pedersen"
 	"github.com/stretchr/testify/require"
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3/share"
-	vss "github.com/michaljirman/kyber/v3/share/vss/pedersen"
 )
 
 var suite = edwards25519.NewBlakeSHA256Ed25519()

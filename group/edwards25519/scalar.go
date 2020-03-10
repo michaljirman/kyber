@@ -12,10 +12,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/group/internal/marshalling"
-	"github.com/michaljirman/kyber/v3/group/mod"
-	"github.com/michaljirman/kyber/v3/util/random"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/group/internal/marshalling"
+	"github.com/michaljirman/kyber/group/mod"
+	"github.com/michaljirman/kyber/util/random"
 )
 
 // This code is a port of the public domain, "ref10" implementation of ed25519

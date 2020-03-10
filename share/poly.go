@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/michaljirman/kyber/v3"
+	"github.com/michaljirman/kyber"
 )
 
 // Some error definitions

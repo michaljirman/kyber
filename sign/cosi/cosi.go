@@ -43,7 +43,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/michaljirman/kyber/v3"
+	"github.com/michaljirman/kyber"
 )
 
 // Commit returns a random scalar v, generated from the given suite,

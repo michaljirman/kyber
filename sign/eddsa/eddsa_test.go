@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/michaljirman/kyber/v3/group/edwards25519"
+	"github.com/michaljirman/kyber/group/edwards25519"
 
 	"github.com/stretchr/testify/assert"
 )

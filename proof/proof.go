@@ -8,7 +8,7 @@ package proof
 import (
 	"errors"
 
-	"github.com/michaljirman/kyber/v3"
+	"github.com/michaljirman/kyber"
 )
 
 // Suite defines the functionalities needed for this package to operate

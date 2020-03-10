@@ -15,12 +15,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/util/random"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/util/random"
 
-	"github.com/michaljirman/kyber/v3/share"
-	vss "github.com/michaljirman/kyber/v3/share/vss/pedersen"
-	"github.com/michaljirman/kyber/v3/sign/schnorr"
+	"github.com/michaljirman/kyber/share"
+	vss "github.com/michaljirman/kyber/share/vss/pedersen"
+	"github.com/michaljirman/kyber/sign/schnorr"
 )
 
 // Suite wraps the functionalities needed by the dkg package

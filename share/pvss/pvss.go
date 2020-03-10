@@ -15,9 +15,9 @@ package pvss
 import (
 	"errors"
 
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/proof/dleq"
-	"github.com/michaljirman/kyber/v3/share"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/proof/dleq"
+	"github.com/michaljirman/kyber/share"
 )
 
 // Suite describes the functionalities needed by this package in order to

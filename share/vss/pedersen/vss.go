@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/share"
-	"github.com/michaljirman/kyber/v3/sign/schnorr"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/share"
+	"github.com/michaljirman/kyber/sign/schnorr"
 	"go.dedis.ch/protobuf"
 )
 

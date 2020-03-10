@@ -7,11 +7,11 @@ import (
 	"io"
 	"reflect"
 
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/group/internal/marshalling"
+	"github.com/michaljirman/kyber/util/random"
+	"github.com/michaljirman/kyber/xof/blake2xb"
 	"go.dedis.ch/fixbuf"
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/group/internal/marshalling"
-	"github.com/michaljirman/kyber/v3/util/random"
-	"github.com/michaljirman/kyber/v3/xof/blake2xb"
 )
 
 // Suite128 is the suite for P256 curve

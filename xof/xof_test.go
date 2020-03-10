@@ -5,10 +5,10 @@ import (
 	"math"
 	"testing"
 
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/xof/blake2xb"
+	"github.com/michaljirman/kyber/xof/keccak"
 	"github.com/stretchr/testify/require"
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/xof/blake2xb"
-	"github.com/michaljirman/kyber/v3/xof/keccak"
 )
 
 type blakeF struct{}

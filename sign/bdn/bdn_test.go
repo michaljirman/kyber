@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/pairing"
+	"github.com/michaljirman/kyber/pairing/bn256"
+	"github.com/michaljirman/kyber/sign"
+	"github.com/michaljirman/kyber/sign/bls"
+	"github.com/michaljirman/kyber/util/random"
 	"github.com/stretchr/testify/require"
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/pairing"
-	"github.com/michaljirman/kyber/v3/pairing/bn256"
-	"github.com/michaljirman/kyber/v3/sign"
-	"github.com/michaljirman/kyber/v3/sign/bls"
-	"github.com/michaljirman/kyber/v3/util/random"
 )
 
 var suite = pairing.NewSuiteBn256()

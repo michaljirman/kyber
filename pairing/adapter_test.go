@@ -3,8 +3,8 @@ package pairing
 import (
 	"testing"
 
+	"github.com/michaljirman/kyber/util/key"
 	"github.com/stretchr/testify/require"
-	"github.com/michaljirman/kyber/v3/util/key"
 )
 
 func TestAdapter_SuiteBn256(t *testing.T) {

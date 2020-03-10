@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/group/mod"
-	"github.com/michaljirman/kyber/v3/util/random"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/group/mod"
+	"github.com/michaljirman/kyber/util/random"
 )
 
 var zero = big.NewInt(0)

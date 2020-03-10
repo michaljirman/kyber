@@ -4,11 +4,11 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/group/edwards25519"
+	"github.com/michaljirman/kyber/sign/schnorr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3/sign/schnorr"
 	"go.dedis.ch/protobuf"
 )
 

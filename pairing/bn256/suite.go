@@ -23,10 +23,10 @@ import (
 	"io"
 	"reflect"
 
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/util/random"
+	"github.com/michaljirman/kyber/xof/blake2xb"
 	"go.dedis.ch/fixbuf"
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/util/random"
-	"github.com/michaljirman/kyber/v3/xof/blake2xb"
 )
 
 // Suite implements the pairing.Suite interface for the BN256 bilinear pairing.

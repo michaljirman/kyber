@@ -1,10 +1,10 @@
 package suites
 
 import (
-	"github.com/michaljirman/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3/group/nist"
-	"github.com/michaljirman/kyber/v3/pairing"
-	"github.com/michaljirman/kyber/v3/pairing/bn256"
+	"github.com/michaljirman/kyber/group/edwards25519"
+	"github.com/michaljirman/kyber/group/nist"
+	"github.com/michaljirman/kyber/pairing"
+	"github.com/michaljirman/kyber/pairing/bn256"
 )
 
 func init() {
@@ -12,6 +12,7 @@ func init() {
 	// in production environment when possible
 	register(nist.NewBlakeSHA256P256())
 	register(nist.NewBlakeSHA256QR512())
+	register(nist.NewSecp256r1())
 	register(bn256.NewSuiteG1())
 	register(bn256.NewSuiteG2())
 	register(bn256.NewSuiteGT())

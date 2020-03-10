@@ -3,10 +3,10 @@ package shuffle
 import (
 	"testing"
 
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3/proof"
-	"github.com/michaljirman/kyber/v3/xof/blake2xb"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/group/edwards25519"
+	"github.com/michaljirman/kyber/proof"
+	"github.com/michaljirman/kyber/xof/blake2xb"
 )
 
 func TestBiffle(t *testing.T) {

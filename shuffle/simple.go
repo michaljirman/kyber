@@ -4,8 +4,8 @@ import (
 	"crypto/cipher"
 	"errors"
 
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/proof"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/proof"
 )
 
 // XX the Zs in front of some field names are a kludge to make them

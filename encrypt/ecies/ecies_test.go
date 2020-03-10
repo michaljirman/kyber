@@ -3,9 +3,9 @@ package ecies
 import (
 	"testing"
 
+	"github.com/michaljirman/kyber/group/edwards25519"
+	"github.com/michaljirman/kyber/util/random"
 	"github.com/stretchr/testify/require"
-	"github.com/michaljirman/kyber/v3/group/edwards25519"
-	"github.com/michaljirman/kyber/v3/util/random"
 )
 
 func TestECIES(t *testing.T) {

@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/michaljirman/kyber/v3/pairing"
-	"github.com/michaljirman/kyber/v3/share"
-	"github.com/michaljirman/kyber/v3/sign/bls"
+	"github.com/michaljirman/kyber/pairing"
+	"github.com/michaljirman/kyber/share"
+	"github.com/michaljirman/kyber/sign/bls"
 )
 
 // SigShare encodes a threshold BLS signature share Si = i || v where the 2-byte

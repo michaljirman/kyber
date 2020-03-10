@@ -8,7 +8,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/michaljirman/kyber/v3"
+	"github.com/michaljirman/kyber"
 )
 
 // Suite is the sum of all suites mix-ins in Kyber.

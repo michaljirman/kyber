@@ -3,10 +3,10 @@ package tbls
 import (
 	"testing"
 
+	"github.com/michaljirman/kyber/pairing/bn256"
+	"github.com/michaljirman/kyber/share"
+	"github.com/michaljirman/kyber/sign/bls"
 	"github.com/stretchr/testify/require"
-	"github.com/michaljirman/kyber/v3/pairing/bn256"
-	"github.com/michaljirman/kyber/v3/share"
-	"github.com/michaljirman/kyber/v3/sign/bls"
 )
 
 func TestTBLS(test *testing.T) {

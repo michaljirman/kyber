@@ -5,7 +5,7 @@ package curve25519
 import (
 	"testing"
 
-	"github.com/michaljirman/kyber/v3/util/test"
+	"github.com/michaljirman/kyber/util/test"
 )
 
 // Test the basic implementation of the Ed25519 curve.

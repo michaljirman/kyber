@@ -15,7 +15,7 @@ package curve25519
 import (
 	"math/big"
 
-	"github.com/michaljirman/kyber/v3/group/mod"
+	"github.com/michaljirman/kyber/group/mod"
 )
 
 // Param defines a Twisted Edwards curve (TEC).

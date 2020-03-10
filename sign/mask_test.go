@@ -4,10 +4,10 @@ import (
 	"crypto/rand"
 	"testing"
 
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/pairing"
+	"github.com/michaljirman/kyber/util/key"
 	"github.com/stretchr/testify/require"
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/pairing"
-	"github.com/michaljirman/kyber/v3/util/key"
 )
 
 const n = 17

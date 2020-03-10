@@ -17,7 +17,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/michaljirman/kyber/v3"
+	"github.com/michaljirman/kyber"
 )
 
 // Suite represents the set of functionalities needed by the package schnorr.

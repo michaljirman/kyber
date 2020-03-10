@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/michaljirman/kyber/v3"
+	"github.com/michaljirman/kyber"
 )
 
 // Hash-based noninteractive Sigma-protocol prover context

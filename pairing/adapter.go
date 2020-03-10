@@ -1,8 +1,8 @@
 package pairing
 
 import (
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/pairing/bn256"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/pairing/bn256"
 )
 
 // SuiteBn256 is an adapter that implements the suites.Suite interface so that

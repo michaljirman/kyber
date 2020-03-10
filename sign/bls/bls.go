@@ -17,8 +17,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/pairing"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/pairing"
 )
 
 type hashablePoint interface {

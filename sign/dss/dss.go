@@ -19,10 +19,10 @@ import (
 	"crypto/sha512"
 	"errors"
 
-	"github.com/michaljirman/kyber/v3"
-	"github.com/michaljirman/kyber/v3/share"
-	"github.com/michaljirman/kyber/v3/sign/eddsa"
-	"github.com/michaljirman/kyber/v3/sign/schnorr"
+	"github.com/michaljirman/kyber"
+	"github.com/michaljirman/kyber/share"
+	"github.com/michaljirman/kyber/sign/eddsa"
+	"github.com/michaljirman/kyber/sign/schnorr"
 )
 
 // Suite represents the functionalities needed by the dss package
